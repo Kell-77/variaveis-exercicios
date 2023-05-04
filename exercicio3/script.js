@@ -1,0 +1,17 @@
+let nome = prompt ("seu nome")
+let idade = prompt ("dd/mm/aa")
+let endereco = prompt ("seu cep")
+let cpf = Number(prompt ("cpf"))
+let escolar = prompt ("escolaridade")
+let cnh = prompt ("digite aqui caso tenha")
+let comissao = prompt (" sim ou nao")
+
+console.log(typeof nome)
+console.log(typeof idade)
+console.log(typeof endereco)
+console.log(typeof cpf)
+console.log(typeof escolar)
+console.log(typeof cnh)
+console.log(typeof comissao)
+
+console.log(nome,idade,endereco,cpf,escolar,cnh,comissao)
